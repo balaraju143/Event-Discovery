@@ -1,0 +1,400 @@
+
+/* =========================================
+   STACKLY EVENT DISCOVERY - FOOTER
+   Theme: Navy / Pink / White
+========================================= */
+
+.stackly-footer {
+  width: 100%;
+  padding: 55px 5% 0;
+  background: #0b0b25;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+/* =========================================
+   TOP INTRO
+========================================= */
+
+.footer-top {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 45px;
+  padding-bottom: 45px;
+}
+
+.footer-top-left h2 {
+  color: #ffffff;
+  font-family: Georgia, serif;
+  font-size: clamp(38px, 5vw, 65px);
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: -2px;
+}
+
+.footer-top-left h2 span {
+  color: #ff008c;
+}
+
+.footer-top-right {
+  max-width: 470px;
+  justify-self: end;
+}
+
+.footer-top-right p {
+  color: #c1c1d3;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+/* DIVIDER */
+
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(255,255,255,0.18);
+}
+
+/* =========================================
+   FOOTER MAIN
+========================================= */
+
+.footer-main {
+  width: 100%;
+  padding: 55px 0 60px;
+  display: grid;
+  grid-template-columns: 1.5fr 0.8fr 1fr 1.2fr;
+  gap: 45px;
+}
+
+/* BRAND */
+
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.footer-logo img {
+  width: 205px;
+  height: 155px;
+  object-fit: contain;
+  object-position: left center;
+  margin-top: -40px;
+}
+
+.footer-brand-description {
+  max-width: 350px;
+  color: #c1c1d3;
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 24px;
+  margin-top: -40px;
+}
+
+/* SOCIAL ICONS */
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-socials a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0b0b25;
+  background: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #ffffff;
+  background: #ff008c;
+  border-color: #ff008c;
+  transform: translateY(-5px);
+}
+
+/* =========================================
+   FOOTER COLUMNS
+========================================= */
+
+.footer-column h3 {
+  color: #ffffff;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.footer-column ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 14px;
+}
+
+.footer-column ul li a {
+  color: #c1c1d3;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #ff008c;
+  padding-left: 5px;
+}
+
+/* =========================================
+   CONTACT DETAILS
+========================================= */
+
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  margin-bottom: 20px;
+}
+
+.footer-contact-item .material-symbols-outlined {
+  color: #ff008c;
+  font-size: 23px;
+  flex-shrink: 0;
+}
+
+.footer-contact-item p,
+.footer-contact-item a {
+  color: #c1c1d3;
+  font-size: 13px;
+  line-height: 1.9;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.footer-contact-item a:hover {
+  color: #ff008c;
+}
+
+/* =========================================
+   FOOTER BOTTOM
+========================================= */
+
+.footer-bottom {
+  min-height: 65px;
+  padding: 18px 0;
+  border-top: 1px solid rgba(255,255,255,0.18);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-bottom p {
+  color: #aaaac0;
+  font-size: 12px;
+}
+
+.footer-bottom-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.footer-bottom-links a {
+  color: #aaaac0;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-bottom-links a:hover {
+  color: #ff008c;
+}
+
+/* =========================================
+   TABLET RESPONSIVE
+========================================= */
+
+@media (max-width: 1050px) {
+
+  .footer-main {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px 35px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .footer-top-left h2 {
+    font-size: 45px;
+  }
+
+}
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 650px) {
+
+  .stackly-footer {
+    padding: 45px 6% 0;
+    text-align: center;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+
+  .footer-top-left h2 {
+    font-size: 36px;
+    letter-spacing: -1px;
+  }
+
+  .footer-top-right {
+    max-width: 100%;
+    justify-self: center;
+  }
+
+  .footer-top-right p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 38px;
+    padding: 40px 0;
+    justify-items: center;
+  }
+
+  .footer-brand {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 18px;
+  }
+
+  .footer-logo img {
+    width: 190px;
+    height: 140px;
+    object-position: center;
+  }
+
+  .footer-brand-description {
+    max-width: 340px;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .footer-socials {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .footer-socials a {
+    width: 43px;
+    height: 43px;
+    font-size: 17px;
+  }
+
+  .footer-column {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-column h3 {
+    font-size: 24px;
+    margin-bottom: 19px;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 13px;
+  }
+
+  .footer-column ul li a {
+    font-size: 13px;
+  }
+
+  .footer-contact-item {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  .footer-contact-item p,
+  .footer-contact-item a {
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+    padding: 20px 0;
+  }
+
+  .footer-bottom p {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .footer-bottom-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .footer-bottom-links a {
+    font-size: 11px;
+  }
+
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 380px) {
+
+  .footer-top-left h2 {
+    font-size: 31px;
+  }
+
+  .footer-main {
+    gap: 32px;
+  }
+
+  .footer-contact-item {
+    gap: 8px;
+  }
+
+  .footer-bottom-links {
+    gap: 12px;
+  }
+
+}
